@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Mulai sini */
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header
+,main {
+    padding: 0.5% 10%;
+}
+
+/* versi sticky */
+/* header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 10vh;
+}
+
+#logo {
+    width: 20vh;
+    height: 11vh;
+    display: inline;
+    position: absolute;
+    top: 0;
+}
+
+.nav {
+    float: right;
+    color: black;
+    text-decoration: none;
+    margin: 1%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    padding: 1vh 0;
+}
+
+.nav:hover {
+    color: pink;
+    background-color: blue;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    line-height: 10vh;
+} */
+
+/* versi biasa */
+#logo {
+    width: 15vh;
+    height: 9vh;
+}
+
+.nav {
+    float: right;
+    color: black;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 33px;
+    padding: 1vh 0;
+    margin: 1%;
+}
+
+.nav:hover {
+    color:  #F9E6E6;
+    /* background-color: #F9E6E6; */
+}
+
+footer {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    line-height: 10vh;
+}
+/* batas nav biasa */
+
+/* home */
+#home h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 49px;
+    color: #6F6C6C;
+}
+#home h3 {
+    margin-top: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 65px;
+    color: #6F6C6C;
+}
+#home, #about-container, #education-container {
+    display: flex;
+    /* padding-top: 10vh; */
+}
+#home div {
+    margin-left: 20vh;
+    padding-top: 10vh;
+}
+#home img {
+    margin-left: 30vh;
+    width: 30%;
+}
+#about h1, #education h1, #contact h1 {
+    text-align: left;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 10px;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    color: #6F6C6C;
+
+}
+#about img {
+    margin-left: 10vh;
+    width: 30%;
+}
+#about-container p {
+    width: 50%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 33px;
+    text-align: justify;
+    padding: 10vh 0;
+    margin-left: 10%;
+    margin-top: 30px;
+    color: #6F6C6C;
+
+}
+.card {
+    /* border: 1px black solid; */
+    padding: 2%;
+    width: 25%;
+    height: 25%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 24px; */
+    line-height: 33px;
+    text-align: center;
+    background: #F9E6E6;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin: 5vh;
+}
+.card img {
+    width: 100%;
+}
+
+.card h3{
+    margin-top: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 65px;
+    color: #6F6C6C; 
+}
+
+aside div img{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+aside h1, aside div p {
+    text-align: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#contact {
+    text-align: center;
+}
+#contact .social-media ul{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-size: 4rem;
+    color: #F9E6E6;
+    padding-left: 0;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+
